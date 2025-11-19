@@ -13,16 +13,7 @@ User Input Loan Application
          → Comprehensive Decision Agent Integration (Agent4)
             → Generate Risk Assessment Report
 ```
-The loan application assessment is structured into five stages:
-1.  **User Input**: Receives the applicant's raw information.
-2.  **Preprocess**: Executed by Agent 4 for initial data preparation.
-3.  **Parallel Analysis**: The task is divided and processed simultaneously by three expert agents:
-    * **Agent 1 (Credit Risk)**: Performs creditworthiness analysis.
-    * **Agent 2 (Fraud Risk)**: Executes fraud detection.
-    * **Agent 3 (Compliance Risk)**: Checks regulatory compliance.
-4.  **Decision & Integration**: The results from Agents 1, 2, and 3 are gathered by Agent 4, which executes the final decision and generates the report.
-5.  **Output**: Provides the final decision and comprehensive report.
-  
+
 ### Technical Core
 - **Framework:** LangGraph + LangChain  
 - **Model Strategy:** Open-source fine-tuning 
