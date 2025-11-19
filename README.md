@@ -5,6 +5,8 @@
 ### Core Positioning
 This is a multi-agent AI system based on **LangGraph** , designed to automate loan risk assessment by providing comprehensive credit, fraud, and regulatory compliance analysis, resulting in highly consistent decision recommendations.
 
+**[📚 please view the "Group7 slides" for the detailed info (PDF)]**
+
 ### System Architecture Workflow
 ```
 User Input Loan Application 
@@ -38,11 +40,22 @@ User Input Loan Application
 - **LLM Judge Evaluation**: Implemented an LLM-as-a-Judge pipeline using Qwen2.5-14B-Instruct to automatically validate the reasoning Faithfulness and Relevance of all agents.
 ---
 
+## Data Resource Configuration
 
-Environment Setup: Clone this repository and install the dependencies from requirements.txt.
+- **Credit Risk Benchmark (Kaggle):** Credit risk model training  
+- **Bank Loan Fraud Detection (Kaggle):** Fraud detection model training  
+- **Micmic Banking Interal Policy based on Fannie Mae:** RAG knowledge base construction  
 
-Configuration: Set your Hugging Face Token in the environment variable HF_TOKEN.
+**Data Preprocessing:**  
+- Standardization → JSON format(Agent2 & Agent3)
+- Feature Engineering → Extract risk indicators & ratios  
+- Data Cleaning → Handle missing/outliers  
+- Train/Test Split → 80/20  
+---
 
-Model Access: Please note that the LoRA adapter weights are not included in this repository.
+- This project was developed as a group. Detail work division and the high-level workflow are shown in the "Group7 Slides.pdf" document.
+- Environment Setup: Clone this repository and install the dependencies from requirements.txt.
+- Configuration: Set your Hugging Face Token in the environment variable HF_TOKEN.
+- Model Access: Please note that the LoRA adapter weights are not included in this repository.
+- Run Demo: Execute the Streamlit application to launch the interactive UI and the full LangGraph pipeline.
 
-Run Demo: Execute the Streamlit application to launch the interactive UI and the full LangGraph pipeline.
