@@ -5,7 +5,7 @@
 ### Core Positioning
 This is a multi-agent AI system based on **LangGraph** , designed to automate loan risk assessment by providing comprehensive credit, fraud, and regulatory compliance analysis, resulting in highly consistent decision recommendations.
 
-**[📚 please view the "Group7 slides for the detailed info (PDF)]**
+**[📚 please view the "Group7 slides" for the detailed info (PDF)]**
 
 ### System Architecture Workflow
 ```
