@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.local
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+env/
+
+# Model Weights (Too big for GitHub)
+models/
+*.bin
+*.pt
+*.safetensors
+adapters/
+lora_adapter/
+
+# OS files
+.DS_Store
