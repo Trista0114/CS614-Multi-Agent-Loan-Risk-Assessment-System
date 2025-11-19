@@ -44,7 +44,7 @@ User Input Loan Application
 
 - **Credit Risk Benchmark (Kaggle):** Credit risk model training  
 - **Bank Loan Fraud Detection (Kaggle):** Fraud detection model training  
-- **FINRA Regulatory Rules (Official):** RAG knowledge base construction  
+- **Micmic Banking Interal Policy based on Fannie Mae:** RAG knowledge base construction  
 
 **Data Preprocessing:**  
 - Standardization → JSON format  
