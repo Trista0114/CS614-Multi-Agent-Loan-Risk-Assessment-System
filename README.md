@@ -47,7 +47,7 @@ User Input Loan Application
 - **Micmic Banking Interal Policy based on Fannie Mae:** RAG knowledge base construction  
 
 **Data Preprocessing:**  
-- Standardization → JSON format  
+- Standardization → JSON format(Agent2 & Agent3)
 - Feature Engineering → Extract risk indicators & ratios  
 - Data Cleaning → Handle missing/outliers  
 - Train/Test Split → 80/20  
