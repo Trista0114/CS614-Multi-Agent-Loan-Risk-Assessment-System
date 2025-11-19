@@ -32,7 +32,7 @@ User Input Loan Application
 
 
 ### System Highlights
-- **100% Decision Consistency**: Routing logic in LangGraph ensures the final decision and LLM-generated report are completely aligned with underlying rule-based risk scores3.
+- **100% Decision Consistency**: Routing logic in LangGraph ensures the final decision and LLM-generated report are completely aligned with underlying rule-based risk scores.
 - **Memory Optimization**: Utilizing 4-bit Quantization and a Shared Model Architecture, we integrated Agents 2, 3, and 4 onto a single Llama-3.1-8B-Instruct instance, reducing total memory usage from $\sim 27$ GB to $\sim 16$ GB (a 41% saving).
 - **Hybrid RAG**: Agent 3 uses Hybrid Graph RAG 6combining a Knowledge Graph with Vector Search (ChromaDB)  for highly accurate regulatory retrieval.
 - **LLM Judge Evaluation**: Implemented an LLM-as-a-Judge pipeline using Qwen2.5-14B-Instruct to automatically validate the reasoning Faithfulness and Relevance of all agents.
