@@ -51,11 +51,11 @@ User Input Loan Application
 - Feature Engineering → Extract risk indicators & ratios  
 - Data Cleaning → Handle missing/outliers  
 - Train/Test Split → 80/20  
-
 ---
 
-Environment Setup: Clone this repository and install the dependencies from requirements.txt.
-Configuration: Set your Hugging Face Token in the environment variable HF_TOKEN.
-Model Access: Please note that the LoRA adapter weights are not included in this repository.
-Run Demo: Execute the Streamlit application to launch the interactive UI and the full LangGraph pipeline.
+- This project was developed as a group. Detail work division and the high-level workflow are shown in the "Group7 Slides.pdf" document.
+- Environment Setup: Clone this repository and install the dependencies from requirements.txt.
+- Configuration: Set your Hugging Face Token in the environment variable HF_TOKEN.
+- Model Access: Please note that the LoRA adapter weights are not included in this repository.
+- Run Demo: Execute the Streamlit application to launch the interactive UI and the full LangGraph pipeline.
 
